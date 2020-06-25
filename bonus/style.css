@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: #b14c45;
+}
+
+li {
+  display: inline-block;
+  width: 18%;
+  border-radius: 15px;
+  margin: 5px;
+  border: 2px solid #7070703b;
+  background: #00000005;
+  text-align: center;
+  padding: 15px 0px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+p {
+  margin: 0;
+}
+
+li:hover {
+  box-shadow: 1px 1px;
+}
+
+p.uno:hover {
+  color: #ff7347;
+}
+
+p.due:hover {
+  color: #ffe500;
+}
+
+p.tre:hover {
+  color: #ff1100;
+}
+
+.uno:hover, .due:hover, .tre:hover {
+  font-weight: bold;
+}
